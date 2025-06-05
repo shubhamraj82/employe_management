@@ -1,6 +1,6 @@
  import React from 'react'
  
- const TaskListNumbers = () => {
+ const TaskListNumbers = (props) => {
    return (
      <div className='flex mt-10 justify-between gap-5 screen'>
 
