@@ -8,7 +8,7 @@ import { AuthContext } from './context/AuthProvider'
 const App = () =>{
     const [User, setUser] = useState(null)
     const [loggedInuserData, setLoggedinUserData] = useState(null)
-    const [userData,SetuserData]=useContext(AuthContext)
+   const userData = useContext(AuthContext)
 
     
     // Initialize localStorage when component mounts
