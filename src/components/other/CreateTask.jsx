@@ -38,8 +38,7 @@ const CreateTask = () => {
     setTaskDate('')
     setAssignTo('')
     setCategory('')
-
-
+     
   }
 
   return (
